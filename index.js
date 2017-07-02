@@ -1,12 +1,9 @@
 /**
  * Created by trigkit4 on 2017/6/22.
  */
-/**
- * Created by trigkit4 on 2017/6/22.
- */
-import ExtractTextPlugin from 'extract-text-webpack-plugin'
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-export default class HandleCssLoaders {
+module.exports =  class HandleAllCssLoader {
 
     constructor({
         fallback = 'style-loader',
